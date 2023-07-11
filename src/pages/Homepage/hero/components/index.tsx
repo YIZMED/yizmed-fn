@@ -32,7 +32,7 @@ function Hero() {
         </div>
         <div className="flex justify-center text-center lg:py-2 xl:mt-8">
           <button className="rounded-md bg-mylightBlue p-2 text-sm text-white lg:text-lg xl:p-3">
-            Read More
+            ReadMore
           </button>
         </div>
       </div>
