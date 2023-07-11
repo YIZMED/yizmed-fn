@@ -1,57 +1,61 @@
 import { Icon } from '@iconify/react';
 function Blogs() {
   return (
-    <div className=" w-full bg-tbanner ">
-      <div className="flex w-3/4 flex-col">
-        <div className="ml-20 py-8 text-2xl font-bold text-myBlue ">
+    <div className="flex w-full items-center justify-start bg-tbanner bg-cover bg-no-repeat">
+      <div className="my-8 flex w-3/4 flex-col items-center justify-start max-lg:w-full">
+        <div className="w-4/5  py-8 text-2xl font-bold text-myBlue ">
           <h1>What Customers Say About Us</h1>
         </div>
-        <div className=" border-opacity-15 ml-20  w-3/5 rounded-md border border-gray-950">
-          <div className="mx-4 w-full">
+        <div className=" mb-8 flex w-4/5 flex-col items-center justify-center rounded-lg border border-solid border-gray-950 border-opacity-5 bg-white shadow-xl ring-1 ring-gray-200 ">
+          <div className="w-full px-4">
             <span>
-              <p className="py-10">
-                Lorem ipsum dolor sit amet
+              <p className="py-10 font-semibold text-stone-600">
+                "Lorem ipsum dolor sit, amet
                 consectetur adipisicing elit.
-                Tempore maiores at ipsa aperiam
-                voluptate eos veniam obcaecati
-                atque explicabo corrupti. h
+                Architecto alias odio, atque odit,
+                ullam unde officiis sit ipsam
+                enim, pariatur totam tenetur. Sed
+                quisquam facilis sapiente
+                voluptate molestiae nostrum, fuga
+                aut odit obcaecati, repellat,
+                doloremque et saepe incidunt
+                libero nihil quod quo labore enim
+                veniam officiis mollitia esse!
+                Pariatur, sed."
               </p>
             </span>
             <span>
-              <h2 className="py-8">
-                Peter Hospital
+              <h2 className=" text-2xl font-bold text-mylightBlue">
+                {' '}
+                St Peter Hospital Kigali
               </h2>
             </span>
             <span>
-              <h3 className="py-6">Peter Joe</h3>
-            </span>
-            <span>
-              <button className="rounded-full border border-mylightBlue ">
-                <Icon
-                  icon="iconamoon:arrow-up-2-thin"
-                  width="25"
-                  height="25"
-                  rotate={1}
-                  vFlip={true}
-                />
-              </button>
-              {''}
-              <button className="rounded-full border border-mylightBlue ">
-                <Icon
-                  icon="iconamoon:arrow-up-2-thin"
-                  width="25"
-                  height="25"
-                  rotate={1}
-                />
-              </button>
+              <h3 className=" text-xl font-bold text-blue-950 ">
+                Dr Peter Joe
+              </h3>
             </span>
           </div>
-        </div>
-        <div className="relative -right-20 flex w-full flex-row items-center justify-center py-10">
-          <span>O</span>
-          <span>O</span>
-          <span>O</span>
-          <span>O</span>
+          <div className="flex w-full flex-row items-center justify-end gap-3 px-4 py-2 max-md:justify-center">
+            <button className="rounded-full border border-mylightBlue p-2  hover:bg-mylightBlue hover:text-white ">
+              <Icon
+                icon="iconamoon:arrow-up-2-thin"
+                width="25"
+                height="25"
+                rotate={1}
+                vFlip={true}
+              />
+            </button>
+            {''}
+            <button className="rounded-full border border-mylightBlue p-2 hover:bg-mylightBlue  hover:text-white ">
+              <Icon
+                icon="iconamoon:arrow-up-2-thin"
+                width="25"
+                height="25"
+                rotate={1}
+              />
+            </button>
+          </div>
         </div>
       </div>
     </div>
