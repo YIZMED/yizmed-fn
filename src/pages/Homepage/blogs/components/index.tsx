@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 function Blogs() {
   return (
-    <div className="flex w-full items-center justify-start bg-tbanner bg-cover bg-no-repeat">
+    <div className="relative top-14  flex w-full items-center justify-start bg-tbanner bg-cover bg-no-repeat">
       <div className="my-8 flex w-3/4 flex-col items-center justify-start max-lg:w-full">
         <div className="w-4/5  py-8 text-2xl font-bold text-myBlue ">
           <h1>What Customers Say About Us</h1>

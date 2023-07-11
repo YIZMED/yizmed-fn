@@ -20,7 +20,7 @@ function Categories() {
     'Storage Systems ',
   ];
   return (
-    <div className="flex flex-row bg-myBgColor">
+    <div className="relative top-14 flex flex-row bg-myBgColor">
       <div className="m-4 w-1/5 border border-gray-800 border-opacity-10 bg-white max-md:hidden">
         <ul className="">
           <li className="md:max-md border-b-2 border-myBlue p-2 text-center font-bold text-myBlue md:text-2xl lg:text-3xl">

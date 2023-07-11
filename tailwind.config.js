@@ -13,6 +13,8 @@ module.exports = {
       backgroundImage: {
         tbanner:
           "url('./assets/Image/Testimonial-banner.jpg')",
+        thomebanner:
+          "url('./assets/Image/home-bottom-banner.svg')",
       },
     },
     plugins: [],
