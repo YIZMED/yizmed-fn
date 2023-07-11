@@ -1,7 +1,7 @@
 import heroimage from '../../../../assets/Image/27253.jpg';
 function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center bg-myBackgoundColor max-md:h-screen md:flex-row ">
+    <div className="relative top-14 flex flex-col items-center justify-center bg-myBackgoundColor max-md:h-screen md:flex-row ">
       <div className="flex w-full flex-col items-center justify-center p-1 lg:gap-3">
         <div className="text-center font-sans font-bold text-stone-100">
           <h1 className="mt-3 text-4xl">
@@ -15,7 +15,7 @@ function Hero() {
             <span className="text-myBrown">
               Supplier
             </span>{' '}
-            <span className="text-blue-900">
+            <span className="text-myBlue">
               Ltd
             </span>
           </h2>
@@ -32,7 +32,7 @@ function Hero() {
         </div>
         <div className="flex justify-center text-center lg:py-2 xl:mt-8">
           <button className="rounded-md bg-mylightBlue p-2 text-sm text-white lg:text-lg xl:p-3">
-            Read More
+            ReadMore
           </button>
         </div>
       </div>
