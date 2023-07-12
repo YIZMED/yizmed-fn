@@ -15,7 +15,7 @@ function Hero() {
             <span className="text-myBrown">
               Supplier
             </span>{' '}
-            <span className="text-blue-900">
+            <span className="text-myBlue">
               Ltd
             </span>
           </h2>

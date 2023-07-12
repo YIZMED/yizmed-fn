@@ -1,62 +1,98 @@
+import React from 'react';
+import blogImage from '../../../../assets/Image/blog1.jpg';
 import { Icon } from '@iconify/react';
 function Blogs() {
+  const timeElapsed = Date.now();
+  const today = new Date(timeElapsed);
   return (
-    <div className="relative top-14  flex w-full items-center justify-start bg-tbanner bg-cover bg-no-repeat">
-      <div className="my-8 flex w-3/4 flex-col items-center justify-start max-lg:w-full">
-        <div className="w-4/5  py-8 text-2xl font-bold text-myBlue ">
-          <h1>What Customers Say About Us</h1>
-        </div>
-        <div className=" mb-8 flex w-4/5 flex-col items-center justify-center rounded-lg border border-solid border-gray-950 border-opacity-5 bg-white shadow-xl ring-1 ring-gray-200 ">
-          <div className="w-full px-4">
-            <span>
-              <p className="py-10 font-semibold text-stone-600">
-                "Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit.
-                Architecto alias odio, atque odit,
-                ullam unde officiis sit ipsam
-                enim, pariatur totam tenetur. Sed
-                quisquam facilis sapiente
-                voluptate molestiae nostrum, fuga
-                aut odit obcaecati, repellat,
-                doloremque et saepe incidunt
-                libero nihil quod quo labore enim
-                veniam officiis mollitia esse!
-                Pariatur, sed."
-              </p>
+    <div className="relative top-14 w-full bg-opacity-5 bg-blogImage bg-cover bg-center bg-no-repeat max-lg:hidden">
+      <h1 className="py-4 text-center text-4xl font-extrabold text-blue-800 ">
+        BLogs
+      </h1>
+      <div className=" flex flex-row items-center gap-3 p-2">
+        <span className="rounded-full bg-white p-4 text-center hover:bg-mylightBlue">
+          <Icon
+            icon="simple-line-icons:arrow-up"
+            width="15"
+            rotate={3}
+            className="cursor-pointer hover:text-white"
+          />
+        </span>
+        <div className=" my-4 flex w-full items-center justify-center gap-8">
+          <div className=" rounded-3xl bg-white shadow-lg shadow-gray-700 ">
+            <span className="">
+              <img src={blogImage} alt="" />
             </span>
-            <span>
-              <h2 className=" text-2xl font-bold text-mylightBlue">
+            <div className="flex w-full flex-col items-center px-4 pb-8">
+              <span className="py-2 text-xl font-extrabold text-myBlue">
                 {' '}
-                St Peter Hospital Kigali
-              </h2>
-            </span>
-            <span>
-              <h3 className=" text-xl font-bold text-blue-950 ">
-                Dr Peter Joe
-              </h3>
-            </span>
+                Enhancing Diagnostic Imaging
+                Capabilities in Medical Facilities{' '}
+              </span>
+              <span className="py-2 text-sm">
+                Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                Nesciunt ab accusamus facere
+                consequatur itaque, animi neque
+                molestias suscipit
+              </span>
+              <span className="flex w-full items-center justify-end font-mono text-lg font-bold text-gray-800">
+                {today.toDateString()}
+              </span>
+            </div>
           </div>
-          <div className="flex w-full flex-row items-center justify-end gap-3 px-4 py-2 max-md:justify-center">
-            <button className="rounded-full border border-mylightBlue p-2  hover:bg-mylightBlue hover:text-white ">
-              <Icon
-                icon="iconamoon:arrow-up-2-thin"
-                width="25"
-                height="25"
-                rotate={1}
-                vFlip={true}
-              />
-            </button>
-            {''}
-            <button className="rounded-full border border-mylightBlue p-2 hover:bg-mylightBlue  hover:text-white ">
-              <Icon
-                icon="iconamoon:arrow-up-2-thin"
-                width="25"
-                height="25"
-                rotate={1}
-              />
-            </button>
+          <div className=" rounded-3xl bg-white shadow-lg shadow-gray-700 ">
+            <span className="">
+              <img src={blogImage} alt="" />
+            </span>
+            <div className="flex w-full flex-col items-center px-4 pb-8">
+              <span className="py-2 text-xl font-extrabold text-myBlue">
+                {' '}
+                Enhancing Diagnostic Imaging
+                Capabilities in Medical Facilities{' '}
+              </span>
+              <span className="py-2 text-sm">
+                Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                Nesciunt ab accusamus facere
+                consequatur itaque, animi neque
+                molestias suscipit
+              </span>
+              <span className="flex w-full items-center justify-end font-mono text-lg font-bold text-gray-800">
+                {today.toDateString()}
+              </span>
+            </div>
+          </div>
+          <div className=" rounded-3xl bg-white shadow-lg shadow-gray-700 ">
+            <span className="">
+              <img src={blogImage} alt="" />
+            </span>
+            <div className="flex w-full flex-col items-center px-4 pb-8">
+              <span className="py-2 text-xl font-extrabold text-myBlue">
+                {' '}
+                Enhancing Diagnostic Imaging
+                Capabilities in Medical Facilities{' '}
+              </span>
+              <span className="py-2 text-sm">
+                Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+                Nesciunt ab accusamus facere
+                consequatur itaque,
+              </span>
+              <span className="flex w-full items-center justify-end font-mono text-lg font-bold text-gray-800">
+                {today.toDateString()}
+              </span>
+            </div>
           </div>
         </div>
+        <span className="rounded-full bg-white p-4 text-center  hover:bg-mylightBlue">
+          <Icon
+            icon="simple-line-icons:arrow-up"
+            width="15"
+            rotate={1}
+            className="cursor-pointer hover:text-white"
+          />
+        </span>
       </div>
     </div>
   );
