@@ -1,14 +1,16 @@
-import Blogs from './blogs/components';
-import ThomeBanner from './blogs/components/homeBanner';
+import ThomeBanner from './testimonial/components/homeBanner';
 import Categories from './categories';
 import Hero from './hero/components';
+import Testimonial from './testimonial/components';
+import Blogs from './blogs/components';
 
 function HomePage() {
   return (
     <div>
       <Hero />
       <Categories />
-      <Blogs />
+      <Blogs/>
+      <Testimonial />
       <ThomeBanner />
     </div>
   );
