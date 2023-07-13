@@ -1,5 +1,7 @@
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 function NavBarList() {
+
   return (
     <>
       <div className="max-[1024px]:flex  max-[1024px]:w-full max-[1024px]:items-center max-[1024px]:justify-end lg:hidden">
@@ -15,20 +17,20 @@ function NavBarList() {
         <div className=" w-3/5 px-2">
           <ul className=" flex w-full cursor-pointer flex-row items-center justify-end gap-6 text-lg font-bold text-myBlue xl:gap-10 2xl:gap-12">
             <li className=" hover:border-b-2 hover:border-myBrown hover:pb-2 ">
-              Home
+              <Link to="/">Home</Link>
             </li>
-            <li className="flex flex-row  items-center gap-1 hover:border-b-2 hover:border-myBrown  hover:pb-2">
-              <span className=""> Products</span>
+            <li  className="flex flex-row  items-center gap-1 hover:border-b-2 hover:border-myBrown  hover:pb-2">
+              <span className="">Products</span>
               <Icon icon="ep:arrow-down-bold" />
             </li>
             <li className=" hover:border-b-2 hover:border-myBrown  hover:pb-2">
-              About
+              <Link to="/about"> About</Link>
             </li>
             <li className=" hover:border-b-2 hover:border-myBrown hover:pb-2 ">
-              Services
+              <Link to="/service"> Services</Link>
             </li>
             <li className=" hover:border-b-2 hover:border-myBrown  hover:pb-2">
-              Blogs
+              <Link to="/blog"> Blogs</Link>
             </li>
           </ul>
         </div>
@@ -49,9 +51,11 @@ function NavBarList() {
           </div>
         </div>
         <div className="flex items-center justify-end text-center">
-          <button className="text-md w-28 rounded-2xl bg-mylightBlue p-3 font-bold text-white hover:border-2 hover:border-solid hover:border-myBlue hover:bg-white hover:text-myBlue">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button className="text-md w-28 rounded-2xl bg-mylightBlue p-3 font-bold text-white hover:border-2 hover:border-solid hover:border-myBlue hover:bg-white hover:text-myBlue">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </>

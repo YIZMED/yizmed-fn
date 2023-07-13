@@ -3,7 +3,7 @@ import logo from '../../../assets/brand/navbarlog.jpeg';
 import { Icon } from '@iconify/react';
 function Footer() {
   return (
-    <div className="relative  top-10 flex w-full flex-col items-center justify-center bg-blue-950">
+    <div className="flex  w-full flex-col items-center justify-center bg-blue-950 max-lg:relative max-lg:top-10">
       <div className=" mx-auto flex flex-row items-start px-4 py-8 max-md:flex-wrap max-md:gap-8 ">
         <div className="mx-auto w-2/5 max-md:w-full ">
           <div className="w-1/2">

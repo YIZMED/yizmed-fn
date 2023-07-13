@@ -1,12 +1,9 @@
-import './App.css';
-import HomePage from './pages/Homepage';
-import Navbar from './pages/NavBar/components';
+import Routers from './setup/routes';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePage />
+      <Routers></Routers>
     </div>
   );
 }
