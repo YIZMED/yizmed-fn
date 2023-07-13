@@ -10,12 +10,12 @@ function Blogs() {
         BLogs
       </h1>
       <div className=" flex flex-row items-center gap-3 p-2">
-        <span>
+        <span className="rounded-full bg-white p-4 text-center hover:bg-mylightBlue">
           <Icon
             icon="simple-line-icons:arrow-up"
-            width="50"
+            width="15"
             rotate={3}
-            className="cursor-pointer hover:text-mylightBlue"
+            className="cursor-pointer hover:text-white"
           />
         </span>
         <div className=" my-4 flex w-full items-center justify-center gap-8">
@@ -85,12 +85,12 @@ function Blogs() {
             </div>
           </div>
         </div>
-        <span>
+        <span className="rounded-full bg-white p-4 text-center  hover:bg-mylightBlue">
           <Icon
             icon="simple-line-icons:arrow-up"
-            width="50"
+            width="15"
             rotate={1}
-            className="cursor-pointer hover:text-mylightBlue"
+            className="cursor-pointer hover:text-white"
           />
         </span>
       </div>

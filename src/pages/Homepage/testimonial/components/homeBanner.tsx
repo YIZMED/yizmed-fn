@@ -4,7 +4,7 @@ import React from 'react';
 function ThomeBanner() {
   return (
     <>
-      <div className=" relative  top-10 my-8 flex w-full flex-col items-center justify-center bg-white bg-contain bg-center bg-no-repeat p-8 ">
+      <div className=" relative  top-10 mt-8 flex w-full flex-col items-center justify-center bg-white bg-contain bg-center bg-no-repeat p-8 ">
         <div className=" mx-auto w-full rounded-lg border border-black border-opacity-0 bg-thomebanner p-8 ring-1">
           <h1 className="py-2 text-xl font-bold text-blue-950">
             YIZMED Delivery At Your Door Step
@@ -48,7 +48,6 @@ function ThomeBanner() {
               width="50"
               height="50"
             />
-            ;
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold text-blue-950">

@@ -3,6 +3,7 @@ import Categories from './categories';
 import Hero from './hero/components';
 import Testimonial from './testimonial/components';
 import Blogs from './blogs/components';
+import Footer from '../Footer/Components';
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <Blogs/>
       <Testimonial />
       <ThomeBanner />
+      <Footer/>
     </div>
   );
 }
