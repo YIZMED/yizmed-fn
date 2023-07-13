@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 function Footer() {
   return (
     <div className=" flex w-full flex-col items-center justify-center bg-blue-950">
-      <div className="relative  top-10 mx-auto flex flex-row items-start px-4 py-8 max-md:flex-wrap max-md:gap-8 ">
+      <div className="relative top-10 mx-auto flex flex-row items-start px-4 py-8 max-md:flex-wrap max-md:gap-8 ">
         <div className="mx-auto w-2/5 max-md:w-full ">
           <div className="w-1/2">
             <img src={logo} alt="logo" />
@@ -90,7 +90,7 @@ function Footer() {
           </ul>
         </div>
         <div className="flex w-2/3 flex-row items-start max-md:w-full max-sm:w-full max-sm:flex-wrap max-sm:justify-start max-sm:gap-8">
-          <div className="ml-8 w-1/2 text-gray-300 max-sm:ml-0 max-sm:w-full">
+          <div className="ml-8 w-1/2 text-gray-300 max-sm:ml-2 max-sm:w-full">
             <div className="mb-4 text-3xl font-semibold">
               <h1> LINKS</h1>
             </div>
@@ -112,7 +112,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-1/2 text-gray-300  max-sm:w-full">
+          <div className="w-1/2 text-gray-300 max-sm:mb-2 max-sm:ml-2 max-sm:w-full">
             <div className="mb-4 text-3xl font-semibold">
               <h1> WHY BUY THROUGH US</h1>
             </div>
