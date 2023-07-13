@@ -8,7 +8,7 @@ function NavBarList() {
           width="40"
           color="#149494"
           hFlip={true}
-          className="mr-8"
+          className=""
         />
       </div>
       <div className=" lg:justify-flexend min-[102px]:hidden lg:flex lg:w-full lg:flex-row lg:items-center">
